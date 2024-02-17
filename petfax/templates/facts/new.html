@@ -10,13 +10,15 @@
     <h1 class="font_title">Add Your Own Fact!</h1>
     <form action="/facts" method="POST">
         <label for="name">Name:</label>
-        <input type="text" name="name">
+        <input type="text" name="submitter">
         <br />
         <label for="fact">Fact:</label>
         <input type="text" name="fact">
         <br />
         <input type="submit" value="Submit">
     </form>
+    <a href="/facts">View all facts</a>
+    <br />
     <a href="/pets">Go back to Pets</a>
 </body>
 </html>
